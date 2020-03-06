@@ -1,6 +1,6 @@
 /********************************************************************
  * * Program Filename: player.cpp
- * * Author: Megan Lynn Tuker
+ * * Author: Megan Lynn Tucker
  * * Date: 03/01/2020
  * * Description: Creates a player object
  * * Input: N/A
@@ -75,7 +75,7 @@ string Player::getName(){
  * * Description: Accessor (getter)
  * * Parameters: N/A
  * * Pre-Conditions: A player object exists
- * * Post-Conditions: The player collumn is returned
+ * * Post-Conditions: The player column is returned
  * *********************************************************************/ 
 int Player::getColumn(){
 	return column;

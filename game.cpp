@@ -1,6 +1,6 @@
 /********************************************************************
  * * Program Filename: game.cpp
- * * Author: Megan Lynn Tuker
+ * * Author: Megan Lynn Tucker
  * * Date: 03/01/2020
  * * Description: Creates a game object
  * * Input: N/A
@@ -115,7 +115,7 @@ void Game::checkInput(int num_inputs, char **input){
 /********************************************************************* 
  * * Function: generateRoom
  * * Description: Finds an empty room to place a new event
- * * Parameters: int collumn number int row number
+ * * Parameters: int column number int row number
  * * Pre-Conditions: One of the events has yet to be assigned
  * * Post-Conditions: An event is assigned to an empty room
  * *********************************************************************/ 
@@ -173,7 +173,7 @@ void Game::assignRooms(){
 
 /********************************************************************* 
  * * Function: printHorizontal
- * * Description: Prints the horizontal patern the required number of times
+ * * Description: Prints the horizontal pattern the required number of times
  * * Parameters: N/A
  * * Pre-Conditions: The game board is to be printed
  * * Post-Conditions: The horizontal lines are printed
@@ -188,7 +188,7 @@ void Game::printHorizontal(){
 
 /********************************************************************* 
  * * Function: printVertical
- * * Description: Prints the horizontal patern the required number of times
+ * * Description: Prints the horizontal pattern the required number of times
  * * Parameters: int row 
  * * Pre-Conditions: The game board is to be printed
  * * Post-Conditions: The vertical sections are printed
@@ -262,7 +262,7 @@ void Game::moveWumpus(){
 }
 
 /********************************************************************* 
- * * Function: shootArraow
+ * * Function: shootArrow
  * * Description: Requests direction for the arrow to be fired
  * * Parameters: N/A
  * * Pre-Conditions: The player entered " "
@@ -277,7 +277,7 @@ void Game::shootArrow(){
 	do{
 		getline(cin, direction);
 		valid_input = true;
-		//large block of if else because the code changes slightly with row collumn variations
+		//large block of if else because the code changes slightly with row column variations
 		if(direction == "w"){
 			arrow_position = adventurer.getRow(); //only the row value changes
 			for(int i = 0; i < 3; i++){

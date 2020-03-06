@@ -1,6 +1,6 @@
 /********************************************************************
  * * Program Filename: wumpus.cpp
- * * Author: Megan Lynn Tuker
+ * * Author: Megan Lynn Tucker
  * * Date: 03/01/2020
  * * Description: Creates a wumpus object
  * * Input: N/A

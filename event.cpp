@@ -1,6 +1,6 @@
 /********************************************************************
  * * Program Filename: event.cpp
- * * Author: Megan Lynn Tuker
+ * * Author: Megan Lynn Tucker
  * * Date: 03/01/2020
  * * Description: Creates an event object
  * * Input: N/A

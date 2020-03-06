@@ -1,6 +1,6 @@
 /********************************************************************
  * * Program Filename: room.cpp
- * * Author: Megan Lynn Tuker
+ * * Author: Megan Lynn Tucker
  * * Date: 03/01/2020
  * * Description: Creates a room object
  * * Input: N/A

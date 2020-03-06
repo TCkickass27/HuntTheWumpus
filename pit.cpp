@@ -1,6 +1,6 @@
 /********************************************************************
  * * Program Filename: pit.cpp
- * * Author: Megan Lynn Tuker
+ * * Author: Megan Lynn Tucker
  * * Date: 03/01/2020
  * * Description: Creates a pit object
  * * Input: N/A
